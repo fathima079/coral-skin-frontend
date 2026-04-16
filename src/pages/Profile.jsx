@@ -27,7 +27,7 @@ const Profile = () => {
           return;
         }
 
-        const res = await axios.get("http://localhost:7000/api/auth/profile", {
+        const res = await axios.get("https://coral-skin-backend.onrender.com/api/auth/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setUser(res.data);
@@ -199,7 +199,7 @@ const Profile = () => {
           return;
         }
 
-        const res = await axios.get("http://localhost:7000/api/auth/profile", {
+        const res = await axios.get("https://coral-skin-backend.onrender.com/api/auth/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setUser(res.data);

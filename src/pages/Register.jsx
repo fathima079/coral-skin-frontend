@@ -21,7 +21,7 @@ function Register() {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:7000/api/auth/register", formData);
+      await axios.post("https://coral-skin-backend.onrender.com/api/auth/register", formData);
       alert("Account created successfully! Please login.");
       navigate("/login");
     } catch (err) {
@@ -170,7 +170,7 @@ function Register() {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:7000/api/auth/register", formData);
+      await axios.post("https://coral-skin-backend.onrender.com/api/auth/register", formData);
       alert("Account created successfully! Please login.");
       navigate("/login");
     } catch (err) {
