@@ -42,7 +42,25 @@ function AdminDashboard() {
     navigate("/login");
   };
 
+  const NavItem = ({ icon, label, active, onClick }) => {
   return (
+    <div
+      onClick={onClick}
+      className={`flex items-center gap-3 px-4 py-3 rounded-2xl cursor-pointer transition-all duration-300
+        ${
+          active
+            ? "bg-black text-white shadow-sm"
+            : "text-gray-500 hover:bg-[#F5F5F5] hover:text-black"
+        }`}
+    >
+      <span className="opacity-80">{icon}</span>
+      <span className="text-sm font-medium hidden lg:block">{label}</span>
+    </div>
+  );
+};
+
+  return (
+    
     <div className="bg-[#FAF9F6] min-h-screen text-[#1A1A1A] font-sans flex">
       
       {/* MINIMALIST SIDEBAR */}
