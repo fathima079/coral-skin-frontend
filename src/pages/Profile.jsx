@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -342,5 +342,4 @@ const Profile = () => {
   );
 };
 
->>>>>>> 2ec2d8f07764667d1cb3efdf808e30e6e1ae9d32
 export default Profile;

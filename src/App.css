@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -7,14 +6,5 @@ body {
 .container {
   width: 80%;
   margin: 0 auto; /* centers horizontally */
-=======
-body {
-  margin: 0;
-  padding: 0;
-}
 
-.container {
-  width: 80%;
-  margin: 0 auto; /* centers horizontally */
->>>>>>> 2ec2d8f07764667d1cb3efdf808e30e6e1ae9d32
 }
