@@ -100,3 +100,5 @@ const SearchOverlay = ({ isOpen, onClose }) => {
     </div>
   );
 };
+
+export default SearchOverlay;
