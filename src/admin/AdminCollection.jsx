@@ -21,6 +21,8 @@ function AdminCollection() {
 
   useEffect(() => {
     loadProducts();
+
+    //logs
   }, []);
 
   const handleDelete = async (id) => {
