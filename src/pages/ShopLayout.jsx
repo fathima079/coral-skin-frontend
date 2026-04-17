@@ -12,3 +12,5 @@ function ShopLayout() {
     </>
   );
 }
+
+export default ShopLayout;

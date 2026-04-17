@@ -195,3 +195,5 @@ function OrderDetails() {
     </div>
   );
 }
+
+export default OrderDetails;

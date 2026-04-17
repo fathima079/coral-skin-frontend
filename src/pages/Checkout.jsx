@@ -263,3 +263,5 @@ useEffect(() => {
     </div>
   );
 };
+
+export default Checkout;

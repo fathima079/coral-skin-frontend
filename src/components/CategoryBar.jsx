@@ -21,3 +21,6 @@ const CategoryBar = ({ categories, activeCategory, onSelect }) => {
     </div>
   );
 };
+
+
+export default CategoryBar;

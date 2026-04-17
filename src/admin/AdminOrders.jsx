@@ -114,3 +114,5 @@ function AdminOrders() {
     </div>
   );
 }
+
+export default AdminOrders;

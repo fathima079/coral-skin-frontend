@@ -266,3 +266,5 @@ function AdminEditProduct() {
         </div>
     );
 }
+
+export default AdminEditProduct;

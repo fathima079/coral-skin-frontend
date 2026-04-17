@@ -143,3 +143,5 @@ function AdminCollection() {
     </div>
   );
 }
+
+export default AdminCollection;

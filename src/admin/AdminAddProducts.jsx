@@ -271,3 +271,5 @@ function AdminAddProducts() {
         </div>
     );
 }
+
+export default AdminAddProducts;
